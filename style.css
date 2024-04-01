@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: #2b3844;
+    padding: 24px 81px;
+}
+
+header>p {
+    color: white;
+}
+
+body {
+    background: #202c36;
+}
+.card {
+    margin-left: 60px;
+    background: #2b3844;
+    width: 267px;
+}
+
+.card>p {
+    color: rgb(139, 136, 136);
+    margin: 10px 24px;
+}
+
+.title {
+    padding-bottom: 10px;
+}
+
+.card_wrepper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 60px;
+
+}
+
+.section__input {
+    display: flex;
+    width: 480px;
+    height: 56px;
+    background-color: #2B3844;
+    
+    gap: 24px;
+    align-items: center;
+    border-radius: 5px;
+    margin: 48px 80px;
+}
+
+.section__input>img {
+    width: 18px;
+    height: 18px;
+    margin-left: 32px;
+}
+
+
+.section__input>input {
+    width: 136px;
+    height: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+   
+}
+
+.section__input>input::placeholder {
+    color: white;
+   
+ 
+}
+
+.aaa {
+    width: 100%;
+}
+
+.bbb {
+    width: 100%;
+}
+
+.ccc {
+    width: 100%;
+}
+
+.ppp {
+    width: 100%;
+}
+
+.www {
+    width: 100%;
+}
+
+.hhh {
+    width: 100%;
+}
+
+.ggg {
+    width: 100%;
+}
+
+h4 {
+    padding: 24px 24px;
+    color: white;
+}
+
+@media (max-width:430px) {
+    header {
+        margin: 32% 16%;
+    }
+
+    .section__input { 
+        display: block;
+        padding: 24.5% 16.5%;
+
+    }
+    .card_wrepper {
+       width: 100%;
+    
+    }
+
+}
